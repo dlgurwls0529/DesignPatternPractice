@@ -2,7 +2,7 @@ package Behavior.Command._01_before_req;
 
 public class Main {
     public static void main(String[] args) {
-        ButtonA buttonA = new ButtonA(new Light());
+        ButtonA buttonA = new ButtonA(new Faucet());
         ButtonB buttonB = new ButtonB(new Faucet());
         ButtonC buttonC = new ButtonC(new Computer());
 
@@ -22,7 +22,11 @@ public class Main {
         - ButtonC 클래스 생성자 수정
         - ButtonC 클래스 메소드 수정
         - Main 에서 ButtonC 생성자 인자 수정
-        3. ButtonB의 기능을 faucet 으로 바꾸어라
+        3. ButtonA, B의 기능을 faucet 으로 바꾸어라
+        - ButtonA 클래스 필드 수정
+        - ButtonA 클래스 생성자 수정
+        - ButtonA 클래스 메소드 수정
+        - Main 에서 ButtonA 인자 수정
         - ButtonB 클래스 필드 수정
         - ButtonB 클래스 생성자 수정
         - ButtonB 클래스 메소드 수정
@@ -30,6 +34,7 @@ public class Main {
         4. faucet 의 turnOn에 세기 옵션을 추가
         - faucet 에서 메소드 시그니처 변경
         - ButtonB 의 수정
+        - ButtonA 의 수정
         */
     }
 }

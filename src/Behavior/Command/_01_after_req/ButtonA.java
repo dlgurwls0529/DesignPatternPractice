@@ -1,9 +1,9 @@
-package Behavior.Command._01_after;
+package Behavior.Command._01_after_req;
 
-public class ButtonC {
+public class ButtonA {
     private final Command command;
 
-    public ButtonC(Command command) {
+    public ButtonA(Command command) {
         this.command = command;
     }
 

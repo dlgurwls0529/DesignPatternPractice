@@ -1,13 +1,13 @@
 package Behavior.Command._01_after;
 
 public class ButtonB {
-    private final Light light;
+    private final Command command;
 
-    public ButtonB(Light light) {
-        this.light = light;
+    public ButtonB(Command command) {
+        this.command = command;
     }
 
     public void press() {
-        light.turnOn();
+        command.execute();
     }
 }

@@ -1,4 +1,4 @@
-package Behavior.Command._01_after;
+package Behavior.Command._01_after_req;
 
 public class ButtonC {
     private final Command command;

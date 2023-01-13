@@ -1,13 +1,13 @@
 package Behavior.Command._01_before_req;
 
 public class ButtonA {
-    private final Light light;
+    private final Faucet faucet;
 
-    public ButtonA(Light light) {
-        this.light = light;
+    public ButtonA(Faucet faucet) {
+        this.faucet = faucet;
     }
 
     public void press() {
-        light.turnOff();
+        faucet.turnOn(10);
     }
 }
