@@ -1,5 +1,7 @@
 package Behavior.Mediator._e2_;
 
+import java.util.Map;
+
 public class Main {
     public static void main(String[] args) {
         // Mediator mediator = new FrontDesk();
