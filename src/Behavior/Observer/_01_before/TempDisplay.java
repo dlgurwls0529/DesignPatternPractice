@@ -11,8 +11,7 @@ public class TempDisplay {
         try {
             float data = weatherData.getWeatherState("temperature");
             System.out.println("current temperature : " + data);
-        }
-        catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("no temperature data");
         }
     }
