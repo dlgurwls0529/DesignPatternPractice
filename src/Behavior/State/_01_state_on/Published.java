@@ -1,5 +1,6 @@
 package Behavior.State._01_state_on;
 
+
 public class Published implements State {
     @Override
     public void addStudent(OnlineCourse o, Student student) {
